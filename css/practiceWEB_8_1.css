@@ -1,0 +1,67 @@
+body {
+    background-color: #cecece;
+    padding: 32px;
+   }
+   button {
+    margin: 25px 15px;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid lime;
+    padding: 15px 35px;
+   }
+   button:hover {
+    outline: 1px solid white;
+    outline-offset: -2px;
+    cursor: pointer;
+   }
+   /*Линейный градиент - сверху вниз (по умолчанию) 2 цвета в равных долях*/
+   .button1 {
+    background-image: linear-gradient(#76B9CC, #97cc76);
+   }
+   /*Линейный градиент - сверху вниз (по умолчанию) 3 цвета в равных долях*/
+   .button2 {
+    background-image: linear-gradient(#76B9CC, #CC208A,
+   #97cc76);
+   }
+   /*Линейный градиент - сверху вниз (по умолчанию) 4 цвета в равных долях*/
+   .button3 {
+    background-image: linear-gradient(#76B9CC, #CC208A,
+   #97cc76, #B34EE9);
+   }
+   /*Линейный градиент - сверху вниз (по умолчанию) 4 цвета в неравных долях*/
+   .button4 { 
+    background-image: linear-gradient(blue 5%, lime 30%,
+   #97cc76 80%, #B34EE9 90%);
+   }
+   /*Линейный градиент - сверху вниз (по умолчанию) 4 цвета в неравных долях*/
+   .button5 {
+    background-image: linear-gradient(blue 5px, lime 15px,
+   white 30px, black 50px);
+   }
+   /*Линейный градиент с использованием угла 25 град. - сверху вниз (по умолчанию) 
+   2 цвета в равных долях*/
+   .button6 {
+    background-image: linear-gradient(25deg, blue, lime);
+   }
+   /*Радиальный градиент 2 цвета в неравных долях*/
+   .button7 {
+    background-image: radial-gradient(red 0%, yellow 30%);
+   }
+   /*Радиальный градиент-диагональ из стороны верх-право 2 цвета в равных долях*/
+   .button8 {
+    background-image: radial-gradient(at top right, red,
+   yellow);
+   }
+   /**/
+   .button9 {
+    background-image: radial-gradient(farthest-corner at
+   25% 50%,
+    #f35 0%, #43e 100%);
+   }
+   /*Форма этого радиального градиента вычисляется на основании 
+   информации о расстоянии до вычисленной по входным параметрам
+   точки блока, 2 цвета*/
+   .button10 {
+    background-image: radial-gradient(15px 15px at 85% 25%,
+    #f35 0%, #43e 100%);
+   } 
